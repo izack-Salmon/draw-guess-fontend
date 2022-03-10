@@ -1,0 +1,52 @@
+.home-cointiner{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    border: 2px solid #393E46;
+    padding: 40px 20px;
+    border-radius: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    height: 350px;
+
+
+    button{ 
+        margin-top: 10px;
+        height: 35px;
+        width: 100px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background: #00ADB5;
+        font-size: 18px;
+        font-weight: 700;
+    font-size: 18px;
+    }
+    input{
+        height: 35px;
+        width: 260px;
+        border: 1px solid #393E46;
+        border-radius: 5px;
+        padding-left: 15px;
+
+    }
+}
+
+.player-type-buttons{
+    display: flex;
+    button {
+             min-width: 20%;
+            margin:10px 30px;
+            padding: 5px 10px;
+            font-weight: 700;
+            font-size: 15px;
+            background-color: #c6c6c6;
+            color: #00ADB5;
+            opacity: 0.9;
+            border: 1px solid black;
+            border-radius: 5px;
+    }.active{
+        background-color: #373c44;
+    }
+}

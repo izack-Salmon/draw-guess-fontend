@@ -1,0 +1,14 @@
+.main-layout{
+    margin: 0 auto;
+    padding: 0 32px;
+    height: 95vh;
+    
+    @include for-mobile-layout {
+        max-width: initial;
+    }
+
+    
+    @include for-desktop-layout {
+        max-width: $desktop-breakpoint;
+    }
+}

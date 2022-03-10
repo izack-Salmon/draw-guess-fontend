@@ -1,0 +1,25 @@
+.waiting-cointiner{
+    display: flex;
+    justify-content: center;
+    img{
+        border-radius: 50%;
+        width: 80%;
+        margin-top:100px;
+    }
+    button {
+        width: 80%;
+        margin-top: 50px;
+        height: 80px;
+        font-size: 21px;
+        font-weight: 700;
+        border-radius: 10px;
+        color: #00ADB5;
+        border: 1px solid gray;
+        box-shadow: 0 0 8px #33415c;
+        background-color: #444b55;
+    }
+    span{ 
+        font-family: Frijole;
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,22 @@
+.App-header{
+    background-color: #222831;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+
+
+    .logo{
+        font-family: Frijole;
+        color: #00ADB5;
+        font-size: 21px;
+    }
+}
+
+.header-cointiner{
+    width: 1400px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}

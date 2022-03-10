@@ -1,0 +1,23 @@
+// Externals
+
+//setup
+@import "setup/variables";
+@import "setup/mixins";
+
+// Basics
+@import "basics/base";
+@import "basics/topography";
+@import "basics/layout";
+
+// Pages
+@import "pages/app";
+@import "pages/Home.scss";
+@import "pages/drawing";
+@import "pages/waiting";
+@import "pages/guess";
+
+
+// Components
+@import "cmps/AppHeader.scss";
+@import "cmps/pickDiffcult.scss";
+@import "cmps/footer.scss";
